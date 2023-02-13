@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+    <title>It's WAR!</title>
+</head>
+<body>
+    <h1>Let's play WAR</h1>
+    <h3>(Open up your Console)</h3>
+    <div id="mocha"><p><a href=".">Index</a></p></div>
+    <div id="messages"></div>
+    <div id="fixtures"></div>
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script src="index.js"></script>
+    <script>mocha.setup('bdd')</script>
+    <script src="indexTests.js"></script>
+    <script>mocha.run();</script>
+</body>
+</html>
