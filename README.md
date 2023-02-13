@@ -1,0 +1,1 @@
+Creating a functional card game of WAR, using only the console log. Also dabbled in running a mocha/chai unit test.
